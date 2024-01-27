@@ -7,6 +7,7 @@
     <title>Bisa Lulus</title>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -90,8 +91,8 @@
             <!-- card 4 -->
             <div class="flex flex-col justify-center items-center gap-4 text-center px-3">
                 <img src="./asset/kulmat/4.png" alt="" class="w-[100px] h-[100px]">
-                <p class="text-[20px] tracking-wide">Bestie Ambis</p>
-                <p class="text-[14px] text-[#999999] tracking-wide">Teman-teman ambis untuk <br> berjuang bersama raih impian</p>
+                <p class="text-[20px] tracking-wide">Kawan Sukses</p>
+                <p class="text-[14px] text-[#999999] tracking-wide">Teman-teman satu tujuan <br> untuk berjuang bersama raih impian</p>
             </div>
         </div>
     </section>
@@ -139,7 +140,7 @@
             </div>
 
             <!-- card -->
-            <div class="py-12 flex flex-col md:flex-row gap-6 overflow-scroll max-w-full md:px-6" id="promo">
+            <div class="py-12 flex flex-col md:flex-row gap-6 overflow-scroll max-w-full md:px-6 flex-wrap items-center justify-center" id="promo">
 
             </div>
         </div>
@@ -173,10 +174,33 @@
     <div class="w-full h-12 bg-[#004AAD] rounded-t-full"></div>
     <!-- footer -->
     <footer class="w-full pt-12 pb-3 px-[10%] bg-[#004AAD]">
-        <div class="justify-center items-center py-12 border-t-2 border-white mx-auto">
-            <p class="text-white">&copy; Copyright 2024. All Rights Reserved by Kuliah Matematika</p>
+        <div class="w-full items-center py-12 border-t-2 border-white mx-auto flex-row-reverse gap-12">
+            <div class="flex gap-3 w-full">
+                <!-- Ikon Twitter -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-white">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <!-- Ikon Facebook -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-white">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <!-- Ikon YouTube -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-white">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <!-- Ikon Instagram -->
+                <a href="https://www.instagram.com/bisalulus" target="_blank" rel="noopener noreferrer" class="text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="flex w-full">
+                <p class="text-white">&copy; Copyright 2024. All Rights Reserved by
+                    <a href="https://kuliahmatematika.vercel.app/" class="underline">Kuliah Matematika</a>
+                </p>
+            </div>
         </div>
-    </footer>
+      </footer>
+      
 
     <!-- script -->
     <script>
@@ -278,9 +302,9 @@
                 subtitle: "Kejar Universitas dan Sekolah <br> Tinggi impianmu",
             },
             {
-                img: "https://privatalfaiz.id/assets/images/icon-ujian-mandiri-new.png",
-                title: "Ujian Mandiri",
-                subtitle: "Persiapkan dirimu untuk <br> mengikuti ujian mandiri",
+                img: "https://upload.wikimedia.org/wikipedia/commons/0/0c/GMAT_LOGO_POS_RGB.svg",
+                title: "GMAT",
+                subtitle: "Persiapkan dirimu untuk <br> mengikuti ujian GMAT",
             },
             {
                 img: "https://privatalfaiz.id/assets/images/icon-skd-new.png",
@@ -295,79 +319,91 @@
         ];
 
         let testimoni = [
-                {
-                    name: "Jaka",
-                    course: "SKD CPNS",
-                    result: "SKOR: TIU 155",
-                    msg: " Dengan adanya bimbel yang di selenggarakan Pak Deddy dan team saya menemukan trik soal, strategi tembak dan diskusi baik mentor dan juga anggota. nilai saya untuk TIU jauh lebih tinggi naik 80 point dibanding belajar mandiri pada seleksi SKD TIU sebelumnya. kedepannya mungkin saya harap bisa berjumpa lg dgn waktu bimble yg lbih banyak dr sebelumnya. dan juga semoga bimbel pak Deddy dan team punya platform khusus tryout skd seperti simulasi test CPNS aslinya beserta pembahasannya."
-                },
-                {
-                    name: "Septi Triyani",
-                    course: "SKD & SKB CPNS",
-                    result: "SKOR: TWK 100, TIU 140, TKP 193",
-                    msg: "Terima kasih banyak utk Pak Deddy, Pak Wakhid, Mas Zunus dll.. Melalui kelas ini menjadi pelengkap ikhtiar sy mudah2 an bisa lolos tes CPNS tahun ini. Aamiin.. <br><br> Meski sy juga ikut beberapa TO dan kelas lain, tapi hanya di kelas pak Deddy ini sy mendapatkan kepercayaan diri yg lebih dari motivasi2 yg diberikan. Materi 20%, mental 30% dan keberuntungan 50%. Bener banget..."
-                },
-                {
-                    name: "Elma Alfitriani",
-                    course: "SKD CPNS",
-                    result: "SKOR: TIU 145",
-                    msg: "Alhamdulillah dengan adanya kelas TIU pak deddy dan pak wahid tiu saya di skd kemarin dapat 145 dan lolos ke skb😇 terimakasih pak deddy dan pak wahid atas bimbingannya semoga saya lulus hingga dapat nip 🙏🏻"
-                },
-                {
-                    name: "Ni Putu Citra Laksmi",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen - UNDIKSHA",
-                    msg: "Grup belajar yang keren banget bener2 suportif. Terus kalau bertanya di grup langsung sat-set. Tentu saja mentornya adalah yang paling luar biasa. Siap sedia menolong dan memastikan kami tidak ada saingan di dalam grup. Materi pembelajaran relate sama soal-soal CPNS. Bangga pernah menjadi bagian dari tempat ini"
-                },
-                {
-                    name: "Ikha Puspita",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen - UNY",
-                    msg: "Highly recommended buat belajar SKB CPNS Kemdikbud. Temen-temennya seru pol-polan, suportif & antusias buat bertumbuh bersama. Sistem belajarnya juga epic bangeeeet, dibagi jadi kelas-kelas kecil. Kami semua jadi lebih fokus bertumbuh. Coach nya keren-keren abiiizzzz, banyak ngasih insight & feedback buat kami semua"
-                },
-                {
-                    name: "Musa Al Hasyim",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen - UNSOED",
-                    msg: "Tak sebatas bimbel tapi kita bisa mengeksplore lebih dalam, teman baru, dan akun zoom lifetime buat simulasi bareng kawan-kawan seperjuangan",
-                },
-                {
-                    name: "Faiz Nuha",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen - UNSOED",
-                    msg: "alhamdulillah, perjuangan yang luar biasa di SKB DOSEN 2023 terjawab dengan dihasil yg membahagiakan. Di pengalaman CPNS kedua saya, setelah sebelumnya lolos SKD 2021 namun tidak lolos SKB, akhirnya di Th 2023 ini saya lolos setelah bergabung ke Grup (Keluarga) SKB DOSEN dimana banyak sekali inside bukan hanya materi, tapi juga mental health dan sharing session yg membuat semakin yakin untuk mengahadapi SKB WW, MT, dan CAT. Terimakasih kepada para Tentor yg sdh turut membantu perjuangan, semoga lelah kalian akan dibalas berkali kali llipat kebaikan dari Allah SWT.",
-                },
-                {
-                    name: "Putri Masruroh",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen Kemdikbud",
-                    msg: "Mentornya support banget terutama Pak Wachid yg membuat semangat dan kasih saran2 yg positif. Materi oke. Penjelasan mentor mudah diterima. Ruang pembelajaran seru dengan teman2 baru yg beda formasi.",
-                },
-                {
-                    name: "Nasfati Iktarastiwi ",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen Kemdikbud",
-                    msg: "Pengajar yg kompeten membuat saya berhasil meraih impian lolos CPNS 2023, terutama SKB Microteching dan Wawancara benar-benar dilatih sampai bisa dan banyak yg keluar sesuai prediksi dari para mentor.",
-                },
-                {
-                    name: "Sendy Putra Pradana",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen - Univ. Pattimura",
-                    msg: "Terima kasih banyak untuk bimbingan dan ilmu yang selama ini diberikan untuk kami, khususnya saya pribadi. Alhamdulillah saya LULUS CPNS dan mendapat PERINGKAT 1",
-                },
-                {
-                    name: "Ratna Nur Mustika S",
-                    course: "SKB CPNS",
-                    result: "Lolos Dosen - UNNES",
-                    msg: "Informasi yang saya peroleh di kelas sangat membantu untuk persiapan tes, karena mentornya sudah berpengalaman, jadi benar-benar berdasarkan real case",
-                },
-            ];
+            {
+                name: "Jaka",
+                course: "SKD CPNS",
+                result: "SKOR: TIU 155",
+                msg: "Dengan adanya bimbel yang di selenggarakan Pak Deddy dan team saya menemukan trik soal, strategi tembak dan diskusi baik mentor dan juga anggota. nilai saya untuk TIU jauh lebih tinggi naik 80 point dibanding belajar mandiri pada seleksi SKD TIU sebelumnya. kedepannya mungkin saya harap bisa berjumpa lg dgn waktu bimble yg lbih banyak dr sebelumnya. dan juga semoga bimbel pak Deddy dan team punya platform khusus tryout skd seperti simulasi test CPNS aslinya beserta pembahasannya.",
+                img: null
+            },
+            {
+                name: "Septi Triyani",
+                course: "SKD & SKB CPNS",
+                result: "SKOR: TWK 100, TIU 140, TKP 193",
+                msg: "Terima kasih banyak utk Pak Deddy, Pak Wakhid, Mas Zunus dll.. Melalui kelas ini menjadi pelengkap ikhtiar sy mudah2 an bisa lolos tes CPNS tahun ini. Aamiin.. <br><br> Meski sy juga ikut beberapa TO dan kelas lain, tapi hanya di kelas pak Deddy ini sy mendapatkan kepercayaan diri yg lebih dari motivasi2 yg diberikan. Materi 20%, mental 30% dan keberuntungan 50%. Bener banget...",
+                img: null
+            },
+            {
+                name: "Elma Alfitriani",
+                course: "SKD CPNS",
+                result: "SKOR: TIU 145",
+                msg: "Alhamdulillah dengan adanya kelas TIU pak deddy dan pak wahid tiu saya di skd kemarin dapat 145 dan lolos ke skb😇 terimakasih pak deddy dan pak wahid atas bimbingannya semoga saya lulus hingga dapat nip 🙏🏻",
+                img: "./asset/testimoni/elma.png"
+            },
+            {
+                name: "Ni Putu Citra Laksmi",
+                course: "SKB CPNS",
+                result: "Lolos Dosen - UNDIKSHA",
+                msg: "Grup belajar yang keren banget bener2 suportif. Terus kalau bertanya di grup langsung sat-set. Tentu saja mentornya adalah yang paling luar biasa. Siap sedia menolong dan memastikan kami tidak ada saingan di dalam grup. Materi pembelajaran relate sama soal-soal CPNS. Bangga pernah menjadi bagian dari tempat ini",
+                img: "./asset/testimoni/citra.png"
+            },
+            {
+                name: "Ikha Puspita",
+                course: "SKB CPNS",
+                result: "Lolos Dosen - UNY",
+                msg: "Highly recommended buat belajar SKB CPNS Kemdikbud. Temen-temennya seru pol-polan, suportif & antusias buat bertumbuh bersama. Sistem belajarnya juga epic bangeeeet, dibagi jadi kelas-kelas kecil. Kami semua jadi lebih fokus bertumbuh. Coach nya keren-keren abiiizzzz, banyak ngasih insight & feedback buat kami semua",
+                img: null
+            },
+            {
+                name: "Musa Al Hasyim",
+                course: "SKB CPNS",
+                result: "Lolos Dosen - UNSOED",
+                msg: "Tak sebatas bimbel tapi kita bisa mengeksplore lebih dalam, teman baru, dan akun zoom lifetime buat simulasi bareng kawan-kawan seperjuangan",
+                img: null
+            },
+            {
+                name: "Faiz Nuha",
+                course: "SKB CPNS",
+                result: "Lolos Dosen - UNSOED",
+                msg: "alhamdulillah, perjuangan yang luar biasa di SKB DOSEN 2023 terjawab dengan dihasil yg membahagiakan. Di pengalaman CPNS kedua saya, setelah sebelumnya lolos SKD 2021 namun tidak lolos SKB, akhirnya di Th 2023 ini saya lolos setelah bergabung ke Grup (Keluarga) SKB DOSEN dimana banyak sekali inside bukan hanya materi, tapi juga mental health dan sharing session yg membuat semakin yakin untuk mengahadapi SKB WW, MT, dan CAT. Terimakasih kepada para Tentor yg sdh turut membantu perjuangan, semoga lelah kalian akan dibalas berkali kali llipat kebaikan dari Allah SWT.",
+                img: "./asset/testimoni/faiz.png"
+            },
+            {
+                name: "Putri Masruroh",
+                course: "SKB CPNS",
+                result: "Lolos Dosen Kemdikbud",
+                msg: "Mentornya support banget terutama Pak Wachid yg membuat semangat dan kasih saran2 yg positif. Materi oke. Penjelasan mentor mudah diterima. Ruang pembelajaran seru dengan teman2 baru yg beda formasi.",
+                img: null
+            },
+            {
+                name: "Nasfati Iktarastiwi ",
+                course: "SKB CPNS",
+                result: "Lolos Dosen Kemdikbud",
+                msg: "Pengajar yg kompeten membuat saya berhasil meraih impian lolos CPNS 2023, terutama SKB Microteching dan Wawancara benar-benar dilatih sampai bisa dan banyak yg keluar sesuai prediksi dari para mentor.",
+                img: "./asset/testimoni/nasfati.png"
+            },
+            {
+                name: "Sendy Putra Pradana",
+                course: "SKB CPNS",
+                result: "Lolos Dosen - Univ. Pattimura",
+                msg: "Terima kasih banyak untuk bimbingan dan ilmu yang selama ini diberikan untuk kami, khususnya saya pribadi. Alhamdulillah saya LULUS CPNS dan mendapat PERINGKAT 1",
+                img: "./asset/testimoni/sendy.png"
+            },
+            {
+                name: "Ratna Nur Mustika S",
+                course: "SKB CPNS",
+                result: "Lolos Dosen - UNNES",
+                msg: "Informasi yang saya peroleh di kelas sangat membantu untuk persiapan tes, karena mentornya sudah berpengalaman, jadi benar-benar berdasarkan real case",
+                img: null
+            }
+        ];
+
 
         testimoni.map(item => $('#testimoni').append(
             `
             <div class="w-[200px] shadow-[0px_0px_8px_0px_rgba(0,0,0,0.10)] m-3" style="display: flex;flex-direction:column;justify-content: start;align-items: start;border-radius: 20px;padding: 30px;">
                 <div class="flex gap-3">
-                    <img src="./asset/user.png" alt="" class="w-[100px] h-[100px]">
+                    <img src="${item.img || './asset/user.png' }" alt="" class="w-[100px] h-[100px] rounded-full">
                     <div>
                         <h4 class="text-[20px] text-[#121212]">${item.name}</h4>
                         <p class="text-[16px] text-[#429fce]">${item.course} <br> ${item.result}</p>
@@ -384,7 +420,7 @@
             `
             <div class="w-[350px] h-[149.5px] rounded-3xl shadow-[0px_0px_8px_0px_rgba(0,0,0,0.10)] flex justify-start items-center gap-5 pl-6 hover:bg-[#004AAD] hover:text-white cursor-pointer group">
                 <div class="bg-white rounded-full p-2 shadow-[0px_0px_8px_0px_rgba(0,0,0,0.10)]">
-                    <img src="${item.img}" alt="" class="x-[44px] h-[44px]">
+                    <img src="${item.img}" alt="" class="w-[44px] h-[44px]">
                 </div>
                 <div class="flex flex-col gap-3">
                     <h4 class="text-[24px]">${item.title}</h4>
